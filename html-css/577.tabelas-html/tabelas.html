@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+
+        body {
+            font-family: sans-serif;
+            width: 100%;
+        }
+
+        .responsive {
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        table tr th {
+            background: #ccc;
+        }
+
+
+        table td, table th {
+            
+            text-align: center;
+            border: 2px solid #ccc;
+            padding: 5px;
+        }
+
+        table caption {
+            text-align: left;
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        tfoot {
+            background: #ddd;
+        }
+
+    </style>
+</head>
+<body>
+    <p>CRIANDO TABELAS</p>
+    <div class="responsive">
+        <table>
+            <caption>Descrição da Tabela</caption>
+            <thead> <!-- CABEÇALHO -->
+                <tr> <!-- LINHAS -->
+                    <th>Titulo 1</th> <!-- COLUNAS -->
+                    <th>Titulo 2</th> <!-- COLUNAS -->
+                    <th>Titulo 3</th> <!-- COLUNAS -->
+                </tr>
+            </thead>
+            <tbody> <!-- CORPO DA TABELA -->
+                <tr> <!-- LINHAS -->
+                    <td colspan="2">mesclado</td>
+                    <td>Corpo 2</td>
+        
+                </tr>
+                <tr>
+                    <td>Corpo 1</td>
+                    <td>Corpo 2</td>
+                    <td>Corpo 3</td>
+                </tr>
+                <tr>
+                    <td>Corpo 1</td>
+                    <td>Corpo 2</td>
+                    <td>Corpo 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" rowspan="2"></td>
+                    <td>TOTAL</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">R$ 0,00</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
