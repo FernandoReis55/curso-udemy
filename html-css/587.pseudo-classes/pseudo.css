@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.heading {
+    
+}
+
+
+.heading:hover {
+    background: red;
+
+}
+
+a {
+    color: yellow;
+}
+
+a:visited {
+    color: green;
+}
