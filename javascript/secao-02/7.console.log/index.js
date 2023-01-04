@@ -4,5 +4,15 @@ console.log("Nando 'Reis'");
 
 console.log(12345);
 console.log( 20, 30.10, 50, 'Fernando');
+console.log( 20, 30.10, 50, 'Fernando');
+console.log( 20, 30.10, 50, 'Fernando');
+console.log( 20, 30.10, 50, 'Fernando');
+console.log( 20, 30.10, 50, 'Fernando');
+
+
+console.log( 20, 30.10, 50, 'Luiz Fernando');
+console.log( 20, 30.10, 50, 'Luiz');
+
+
 
 
