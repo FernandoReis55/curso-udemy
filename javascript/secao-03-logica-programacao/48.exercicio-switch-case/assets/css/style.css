@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500;600&display=swap');
+
+/* font-family: 'Karla', sans-serif; */
+
+:root {
+    --primary-color: #048ABF;
+    --botton-color: #0082FF;
+    --dark-color: #024058;
+    --primary2-color: #E5D9E1;
+    --secundary-color: #F2AE30;
+    --secundary2-color: #F9E4CB;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background: var(--primary-color);
+    font-family: 'Karla', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    background: var(--primary2-color);
+    border-radius: 15px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 1.5em;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--botton-color);
+    color: var(--primary2-color);
+    font-size: 1.3em;
+    font-weight: 600;
+    height: 1.7em;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background: var(--dark-color);
+
+}
